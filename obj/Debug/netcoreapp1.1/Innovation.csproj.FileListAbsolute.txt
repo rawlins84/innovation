@@ -1,0 +1,8 @@
+/Users/rawlins/csharp/Innovation/bin/Debug/netcoreapp1.1/Innovation.deps.json
+/Users/rawlins/csharp/Innovation/bin/Debug/netcoreapp1.1/Innovation.runtimeconfig.json
+/Users/rawlins/csharp/Innovation/bin/Debug/netcoreapp1.1/Innovation.runtimeconfig.dev.json
+/Users/rawlins/csharp/Innovation/bin/Debug/netcoreapp1.1/Innovation.dll
+/Users/rawlins/csharp/Innovation/bin/Debug/netcoreapp1.1/Innovation.pdb
+/Users/rawlins/csharp/Innovation/obj/Debug/netcoreapp1.1/Innovation.AssemblyInfo.cs
+/Users/rawlins/csharp/Innovation/obj/Debug/netcoreapp1.1/Innovation.dll
+/Users/rawlins/csharp/Innovation/obj/Debug/netcoreapp1.1/Innovation.pdb
