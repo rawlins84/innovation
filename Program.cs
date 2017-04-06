@@ -20,10 +20,10 @@ namespace Innovation
             {
                 Eras[i] = new Deck();
             }
-            Console.WriteLine("Loading Innovation");
+            log("Loading Innovation");
             setupGame();
-            Console.WriteLine("");
-            Console.WriteLine("Game Loaded");
+            log("");
+            log("Game Loaded");
 
             playerHand.addCard(Eras[0].draw());
             playerHand.addCard(Eras[0].draw());
@@ -40,7 +40,7 @@ namespace Innovation
                     case "draw":
                         Card newCard = Eras[(int.Parse(commands[1])) - 1].draw();
                         playerHand.addCard(newCard);
-                        Console.WriteLine("You Drew "+ newCard.getTitle());
+                        log("You Drew "+ newCard.getTitle());
                         break;
                     case "hand":
                         playerHand.printCards();
@@ -49,7 +49,7 @@ namespace Innovation
                         running = false;
                         break;
                     default:
-                        Console.WriteLine("Invalid Input!!!");
+                        log("Invalid Input!!!");
                         break;
                 }
             }

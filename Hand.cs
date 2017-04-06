@@ -17,7 +17,7 @@ namespace Innovation
         {
             foreach (Card card in cards)
             {
-                Console.WriteLine(card.getTitle());
+                Helper.log(card.getTitle());   
             }
         }
 

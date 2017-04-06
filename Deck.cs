@@ -14,16 +14,6 @@ namespace Innovation
         {
             cards = new List<Card>();
         }
-        public Deck(int in_era)
-        {
-            cards = new List<Card>();
-            era = in_era;
-        }
-        public Deck(List<Card> in_cards, int in_era)
-        {
-            cards = in_cards;
-            era = in_era;
-        }
 
         public int getLength()
         {
