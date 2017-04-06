@@ -21,9 +21,23 @@ namespace Innovation
             }
         }
 
-        public void addCard(Card in_card)
+        public Card meld(string inTitle)
         {
-            cards.Add(in_card);
+            var matches = cards.Where(p => p.getTitle() == inTitle);
+            if (matches.Count() != 0)
+            {
+                
+            }
+            Card temp = new Card();
+            return temp;
+        }
+
+        public void addCards(List<Card> in_cards)
+        {
+            foreach (Card c in in_cards)
+            {
+                cards.Add(c);
+            }
         }
     }
 }

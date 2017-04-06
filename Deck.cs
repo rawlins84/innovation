@@ -22,14 +22,10 @@ namespace Innovation
 
         public Card draw()
         {
-            if (cards[0] != null)
-            {
-                Card rtn = cards[0];
-                cards.RemoveAt(0);
-                return rtn;
-            }
-
-            return null;
+            Card rtn = new Card();
+            rtn = cards[0];
+            cards.RemoveAt(0);
+            return rtn;
         }
 
         public void rtnCard(Card in_card)

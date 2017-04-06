@@ -14,19 +14,8 @@ namespace Innovation
         private string title;
         private Dogma dogma;
 
-        public Card(string in_title, int in_color, int in_era, int[] in_symbols)
+        public Card()
         {
-            title = in_title;
-            color = in_color;
-            era = in_era;
-
-            symbols[0] = 5;
-            symbols[1] = 4;
-            symbols[2] = 3;
-            symbols[3] = 2;
-            symbols[4] = 1;
-            symbols[5] = 0;
-            dogma = new Dogma();
         }
 
         public Card(string propLine)
