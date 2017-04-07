@@ -1,0 +1,8 @@
+<Card color ="purple" value="6" title="Emancipation">
+  <icons>
+    <icon>factory</icon>
+    <icon>light-bulb</icon>
+    <icon>factory</icon>
+    <icon>hexagon</icon>
+  </icons>
+</Card>
