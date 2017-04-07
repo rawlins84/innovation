@@ -1,0 +1,843 @@
+<?xml version="1.0"?>
+<Cards>
+  <Card title="Archery" value="1" color="pink">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+    </Icons>    
+  </Card>
+  <Card title="MetalWorking" value="1" color="pink">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Oars" value="1" color="pink">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Agriculture" value="1" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Domestication" value="1" color="yellow">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Masonry" value="1" color="yellow">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Clothing" value="1" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Sailing" value="1" color="green">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="The Wheel" value="1" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Pottery" value="1" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Tools" value="1" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Writing" value="1" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="City States" value="1" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Code of Laws" value="1" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Mysticism" value="1" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Construction" value="2" color="pink">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Road Building" value="2" color="pink">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Canal Building" value="2" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Fermenting" value="2" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Currency" value="2" color="green">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Mapmaking" value="2" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Calendar" value="2" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+  <Card title="Mathematics" value="2" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+  <Card title="Monotheism" value="2" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Philosophy" value="2" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+  <Card title="Engineering" value="3" color="pink">
+    <Icons>
+      <Icon>Castle</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Optics" value="3" color="pink">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Machinery" value="3" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Medicine" value="3" color="yellow">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Compass" value="3" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Paper" value="3" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Alchemy" value="3" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Castle</Icon>
+    </Icons>
+  </Card>
+  <Card title="Translation" value="3" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Education" value="3" color="purple">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Feudalism" value="3" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Castle</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Castle </Icon>
+    </Icons>
+  </Card>
+  <Card title="Colonialism" value="4" color="pink">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Gunpowder" value="4" color="pink">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Anatomy" value="4" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Perspective" value="4" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Invention" value="4" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Navigation" value="4" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Experimentation" value="4" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+  <Card title="Printing Press" value="4" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Enterprise" value="4" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Reformation" value="4" color="purple">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Coal" value="5" color="pink">
+    <Icons>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="The Pirate Code" value="5" color="pink">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Statistics" value="5" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Steam Engine" value="5" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Banking" value="5" color="green">
+    <Icons>
+      <Icon>Factory</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Measurement" value="5" color="green">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Chemistry" value="5" color="blue">
+    <Icons>
+      <Icon>Factory</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Physics" value="5" color="blue">
+    <Icons>
+      <Icon>Factory</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Astronomy" value="5" color="purple">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Societies" value="5" color="purple">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Industrialization" value="6" color="pink">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Machine Tools" value="6" color="pink">
+    <Icons>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Canning" value="6" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Vaccination" value="6" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Classification" value="6" color="green">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Metric System" value="6" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Atomic Theory" value="6" color="blue">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Encylopedia" value="6" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Democracy" value="6" color="purple">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Emancipation" value="6" color="purple">
+    <Icons>
+      <Icon>Factory</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Combustion" value="7" color="pink">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Explosives" value="7" color="pink">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Refrigeration" value="7" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Sanitation" value="7" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Bicycle" value="7" color="green">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Electricity" value="7" color="green">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Evolution" value="7" color="blue">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Publications" value="7" color="blue">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+  <Card title="Lighting" value="7" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Railroad" value="7" color="purple">
+    <Icons>
+      <Icon>Clock</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Flight" value="8" color="pink">
+    <Icons>
+      <Icon>Crown</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Mobility" value="8" color="pink">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Antibiotics" value="8" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Skyscrapers" value="8" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Corporations" value="8" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Mass Media" value="8" color="green">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+  <Card title="Quantum Theory" value="8" color="blue">
+    <Icons>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Rocketry" value="8" color="blue">
+    <Icons>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Empiricism" value="8" color="purple">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Socialism" value="8" color="purple">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Composites" value="9" color="pink">
+    <Icons>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Fission" value="9" color="pink">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+    </Icons>
+  </Card>
+  <Card title="Ecology" value="9" color="yellow">
+    <Icons>
+      <Icon>Leaf</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Suburbia" value="9" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Collaboration" value="9" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Satellites" value="9" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+    </Icons>
+  </Card>
+  <Card title="Computers" value="9" color="blue">
+    <Icons>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Genetics" value="9" color="blue">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Services" value="9" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Specialization" value="9" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Miniaturization" value="10" color="pink">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+  <Card title="Robotics" value="10" color="pink">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Globalization" value="10" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+      <Icon>Factory</Icon>
+    </Icons>
+  </Card>
+  <Card title="Stem Cells" value="10" color="yellow">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+      <Icon>Leaf</Icon>
+    </Icons>
+  </Card>
+  <Card title="Databases" value="10" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+    </Icons>
+  </Card>
+  <Card title="Self Service" value="10" color="green">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+      <Icon>Crown</Icon>
+    </Icons>
+  </Card>
+  <Card title="Bioengineering" value="10" color="blue">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="Software" value="10" color="blue">
+    <Icons>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="A.I." value="10" color="purple">
+    <Icons>
+      <Icon>Lightbulb</Icon>
+      <Icon>Lightbulb</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Hexagon</Icon>
+    </Icons>
+  </Card>
+  <Card title="The Internet" value="10" color="purple">
+    <Icons>
+      <Icon>Hexagon</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Clock</Icon>
+      <Icon>Lightbulb</Icon>
+    </Icons>
+  </Card>
+</Cards>
