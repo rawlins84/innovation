@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 namespace CardImporter
 {
+    [XmlType("Card")]
     public class Card
     {
         [XmlAttribute("color")]
@@ -18,8 +19,8 @@ namespace CardImporter
         [XmlAttribute("title")]
         public string Title { get; set; }
 
-        [XmlArray("icons")]
-        [XmlArrayItem("icon")]
+        [XmlArray("Icons")]
+        [XmlArrayItem("Icon")]
         public string[] Icons { get; set; }
     }
 }

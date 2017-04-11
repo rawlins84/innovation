@@ -5,12 +5,16 @@ using System.Xml.Serialization;
 using System.Resources;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
+using System.Text;
 
 namespace CardImporterTest
 {
     [TestClass]
     public class CardTests
     {
+        private readonly string[] icon_types = {"Castle", "LightBulb", "Hexagon", "Factory", "Leaf", "Crown", "Clock"};
+        
         [TestMethod]
         public void CanInitializeCard()
         {
@@ -19,30 +23,97 @@ namespace CardImporterTest
         }
 
         [TestMethod]
-        public void CanReadCardFromXml()
+        public void ValidateAllCards()
         {
-            Card c = GetSampleCard();
+            foreach( var card in XmlCardReader.GetCards())
+            {
+                IsValidCard(card);
+            }
+        }
 
-            string expectedColor = "purple";
-            Assert.AreEqual(expectedColor, c.Color);
-            
-            int expectedValue = 6;
-            Assert.AreEqual(expectedValue, c.Value);
+        private void IsValidCard(Card c)
+        {
+            Assert.IsTrue(IsAColor(c.Color), MessageOnFail("Failed Color verification", c));
+            Assert.IsTrue(ValueIsWithinRange(c.Value), MessageOnFail("Failed Value verification", c));
+            Assert.IsTrue(IsAcceptableTitle(c.Title), MessageOnFail("Failed title verification", c));
+            Assert.IsTrue(ContainsLegitimateIcons(c.Icons), MessageOnFail("Failed icon verification", c));
+        }
+        private string MessageOnFail(string failMessage, Card card)
+        {
+            StringBuilder builder = new StringBuilder();
+            builder.AppendLine(GetCardInfo(card));
+            builder.AppendLine(failMessage);
+            return builder.ToString();
+        }
 
-            string expectedTitle = "Emancipation";
-            Assert.AreEqual(expectedTitle, c.Title);
+        private string GetCardInfo(Card c)
+        {
+            StringBuilder builder = new StringBuilder();
+            builder.AppendLine("####Card######");
+            builder.AppendLine(c.Title);
+            builder.AppendLine(c.Color);
+            builder.AppendLine(c.Value.ToString());
+            builder.AppendLine(string.Join(",", c.Icons));
+            return builder.ToString();
+        }
 
-            string[] expectedIcons = { "factory", "light-bulb", "factory", "hexagon" };
-            CollectionAssert.AreEqual(expectedIcons, c.Icons);
+        private bool IsIconHexagon(string icon)
+        {
+            return icon == "Hexagon";
+        }
+
+        private bool ContainsLegitimateIcons(string [] icons)
+        {
+            if (icons.Length != 4) return false;
+
+            int hexagonCount = 0;
+            bool pass = true;
+            foreach(string icon in icons)
+            {
+                if (IsIconHexagon(icon))
+                {
+                    hexagonCount++;
+                }
+                if (icon_types.Contains(icon))
+                    continue;
+                pass = false;
+            }
+            return pass && hexagonCount == 1;
+        }
+
+        
+
+        private bool IsAcceptableTitle(string title)
+        {
+            return !string.IsNullOrWhiteSpace(title);
+        }
+
+        private bool ValueIsWithinRange(int value)
+        {
+            return 1 <= value && value <= 10;
+        }
+
+        private bool IsAColor(string color)
+        {
+            bool pass = false;
+            switch(color) {
+                case "purple":
+                case "blue":
+                case "green":
+                case "yellow":
+                case "pink":
+                    pass = true;
+                    break;
+                default:
+                    pass = false;
+                    break;
+            }
+            return pass;
         }
 
         private Card GetSampleCard()
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Card));
-            StringReader strReader = new StringReader(CardSamples.basic_card);
-            XmlReader reader = XmlReader.Create(strReader);
-            Card c = (Card)serializer.Deserialize(reader);
-            return c;
+           return XmlCardReader.GetCards().First();
         }
     }
 }

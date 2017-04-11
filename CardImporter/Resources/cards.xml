@@ -83,16 +83,16 @@
   <Card title="Tools" value="1" color="blue">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Castle</Icon>
     </Icons>
   </Card>
   <Card title="Writing" value="1" color="blue">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Crown</Icon>
     </Icons>
   </Card>
@@ -173,15 +173,15 @@
       <Icon>Hexagon</Icon>
       <Icon>Leaf</Icon>
       <Icon>Leaf</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
   <Card title="Mathematics" value="2" color="blue">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Crown</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
   <Card title="Monotheism" value="2" color="purple">
@@ -195,16 +195,16 @@
   <Card title="Philosophy" value="2" color="purple">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
   <Card title="Engineering" value="3" color="pink">
     <Icons>
       <Icon>Castle</Icon>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Castle</Icon>
     </Icons>
   </Card>
@@ -243,8 +243,8 @@
   <Card title="Paper" value="3" color="green">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Crown</Icon>
     </Icons>
   </Card>
@@ -266,9 +266,9 @@
   </Card>
   <Card title="Education" value="3" color="purple">
     <Icons>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
@@ -277,14 +277,14 @@
       <Icon>Hexagon</Icon>
       <Icon>Castle</Icon>
       <Icon>Leaf</Icon>
-      <Icon>Castle </Icon>
+      <Icon>Castle</Icon>
     </Icons>
   </Card>
   <Card title="Colonialism" value="4" color="pink">
     <Icons>
       <Icon>Hexagon</Icon>
       <Icon>Factory</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Factory</Icon>
     </Icons>
   </Card>
@@ -307,16 +307,16 @@
   <Card title="Perspective" value="4" color="yellow">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Leaf</Icon>
     </Icons>
   </Card>
   <Card title="Invention" value="4" color="green">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Factory</Icon>
     </Icons>
   </Card>
@@ -331,16 +331,16 @@
   <Card title="Experimentation" value="4" color="blue">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
   <Card title="Printing Press" value="4" color="blue">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Crown</Icon>
     </Icons>
   </Card>
@@ -379,7 +379,7 @@
   <Card title="Statistics" value="5" color="yellow">
     <Icons>
       <Icon>Leaf</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Leaf</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
@@ -402,16 +402,16 @@
   </Card>
   <Card title="Measurement" value="5" color="green">
     <Icons>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Leaf</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
   <Card title="Chemistry" value="5" color="blue">
     <Icons>
       <Icon>Factory</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Factory</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
@@ -419,16 +419,16 @@
   <Card title="Physics" value="5" color="blue">
     <Icons>
       <Icon>Factory</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
   <Card title="Astronomy" value="5" color="purple">
     <Icons>
       <Icon>Crown</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
@@ -436,7 +436,7 @@
     <Icons>
       <Icon>Crown</Icon>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Crown</Icon>
     </Icons>
   </Card>
@@ -474,9 +474,9 @@
   </Card>
   <Card title="Classification" value="6" color="green">
     <Icons>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
@@ -490,9 +490,9 @@
   </Card>
   <Card title="Atomic Theory" value="6" color="blue">
     <Icons>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
@@ -507,15 +507,15 @@
   <Card title="Democracy" value="6" color="purple">
     <Icons>
       <Icon>Crown</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
   <Card title="Emancipation" value="6" color="purple">
     <Icons>
       <Icon>Factory</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Factory</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
@@ -562,7 +562,7 @@
   </Card>
   <Card title="Electricity" value="7" color="green">
     <Icons>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Factory</Icon>
       <Icon>Hexagon</Icon>
       <Icon>Factory</Icon>
@@ -570,18 +570,18 @@
   </Card>
   <Card title="Evolution" value="7" color="blue">
     <Icons>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
   <Card title="Publications" value="7" color="blue">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Clock</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
   <Card title="Lighting" value="7" color="purple">
@@ -642,10 +642,10 @@
   </Card>
   <Card title="Mass Media" value="8" color="green">
     <Icons>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
       <Icon>Clock</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
   <Card title="Quantum Theory" value="8" color="blue">
@@ -666,9 +666,9 @@
   </Card>
   <Card title="Empiricism" value="8" color="purple">
     <Icons>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
@@ -699,8 +699,8 @@
   <Card title="Ecology" value="9" color="yellow">
     <Icons>
       <Icon>Leaf</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
@@ -738,9 +738,9 @@
   </Card>
   <Card title="Genetics" value="9" color="blue">
     <Icons>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
   </Card>
@@ -763,9 +763,9 @@
   <Card title="Miniaturization" value="10" color="pink">
     <Icons>
       <Icon>Hexagon</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Clock</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
   <Card title="Robotics" value="10" color="pink">
@@ -810,7 +810,7 @@
   </Card>
   <Card title="Bioengineering" value="10" color="blue">
     <Icons>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Clock</Icon>
       <Icon>Clock</Icon>
       <Icon>Hexagon</Icon>
@@ -826,8 +826,8 @@
   </Card>
   <Card title="A.I." value="10" color="purple">
     <Icons>
-      <Icon>Lightbulb</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
+      <Icon>LightBulb</Icon>
       <Icon>Clock</Icon>
       <Icon>Hexagon</Icon>
     </Icons>
@@ -837,7 +837,7 @@
       <Icon>Hexagon</Icon>
       <Icon>Clock</Icon>
       <Icon>Clock</Icon>
-      <Icon>Lightbulb</Icon>
+      <Icon>LightBulb</Icon>
     </Icons>
   </Card>
 </Cards>
