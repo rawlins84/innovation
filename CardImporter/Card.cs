@@ -22,5 +22,16 @@ namespace CardImporter
         [XmlArray("Icons")]
         [XmlArrayItem("Icon")]
         public string[] Icons { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            Card card = obj as Card;
+            if (card == null) return false;
+
+            return this.Color == card.Color &&
+                   this.Value == card.Value &&
+                   this.Title == card.Title;
+           
+        }
     }
 }

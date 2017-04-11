@@ -58,13 +58,18 @@
       <DependentUpon>CardSamples.resx</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="CardTests.cs" />
+    <Compile Include="CardImporterTests.cs" />
+    <Compile Include="DemandTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CardImporter\CardImporter.csproj">
       <Project>{6f119838-6ab3-4001-ae64-5644929b468c}</Project>
       <Name>CardImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InnovationSolution\Demands\Actions.csproj">
+      <Project>{8def3531-e0ff-4261-b137-825f39880ce0}</Project>
+      <Name>Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +83,9 @@
     <None Include="Resources\basic_card.xml">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

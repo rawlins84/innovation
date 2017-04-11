@@ -11,7 +11,7 @@ using System.Text;
 namespace CardImporterTest
 {
     [TestClass]
-    public class CardTests
+    public class CardImporterTests
     {
         private readonly string[] icon_types = {"Castle", "LightBulb", "Hexagon", "Factory", "Leaf", "Crown", "Clock"};
         
