@@ -61,14 +61,26 @@ namespace CardImporterTest
         public void TransferCard()
         {
             Card cardToTransfer = _allCards[0];
-            Hand playerHand = new Hand(new Card[] { cardToTransfer });
-            Hand otherPlayerHand = new Hand(new Card[0]);
+            Hand playerHand = new Hand("player1", new Card[] { cardToTransfer });
+            Hand otherPlayerHand = new Hand("player2", new Card[0]);
 
             int indexOfCardToTransfer = 0;
 
             playerHand.TransferAt(indexOfCardToTransfer, otherPlayerHand);
             Assert.IsTrue(playerHand.IsEmpty(), "Player hand should be empty.");
             Assert.IsTrue(otherPlayerHand.Contains(cardToTransfer), "Hand should contain transfered card.");
+        }
+
+        [TestMethod]
+        public void ScoreCard()
+        {
+            Card cardToScore = _allCards[0];
+            Card anotherCardToScore = _allCards[_allCards.Length - 1];
+            Deck deckToScore = new Deck(new Card[] { cardToScore, anotherCardToScore });
+            int expectedScore = 11;
+
+            Assert.AreEqual(expectedScore, deckToScore.Score(), "Unexpected score received.");
+
         }
     }
 }
