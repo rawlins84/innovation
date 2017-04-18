@@ -7,6 +7,7 @@ using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using System.Text;
+using Game;
 
 namespace CardImporterTest
 {
@@ -33,29 +34,12 @@ namespace CardImporterTest
 
         private void IsValidCard(Card c)
         {
-            Assert.IsTrue(IsAColor(c.Color), MessageOnFail("Failed Color verification", c));
-            Assert.IsTrue(ValueIsWithinRange(c.Value), MessageOnFail("Failed Value verification", c));
-            Assert.IsTrue(IsAcceptableTitle(c.Title), MessageOnFail("Failed title verification", c));
-            Assert.IsTrue(ContainsLegitimateIcons(c.Icons), MessageOnFail("Failed icon verification", c));
-        }
-        private string MessageOnFail(string failMessage, Card card)
-        {
-            StringBuilder builder = new StringBuilder();
-            builder.AppendLine(GetCardInfo(card));
-            builder.AppendLine(failMessage);
-            return builder.ToString();
+            Assert.IsTrue(IsAColor(c.Color), Common.MessageOnFail("Failed Color verification", c));
+            Assert.IsTrue(ValueIsWithinRange(c.Value), Common.MessageOnFail("Failed Value verification", c));
+            Assert.IsTrue(IsAcceptableTitle(c.Title), Common.MessageOnFail("Failed title verification", c));
+            Assert.IsTrue(ContainsLegitimateIcons(c.Icons), Common.MessageOnFail("Failed icon verification", c));
         }
 
-        private string GetCardInfo(Card c)
-        {
-            StringBuilder builder = new StringBuilder();
-            builder.AppendLine("####Card######");
-            builder.AppendLine(c.Title);
-            builder.AppendLine(c.Color);
-            builder.AppendLine(c.Value.ToString());
-            builder.AppendLine(string.Join(",", c.Icons));
-            return builder.ToString();
-        }
 
         private bool IsIconHexagon(string icon)
         {

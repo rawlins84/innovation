@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace CardImporter
+namespace Game
 {
     [XmlType("Card")]
     public class Card
@@ -32,6 +32,11 @@ namespace CardImporter
                    this.Value == card.Value &&
                    this.Title == card.Title;
            
+        }
+
+        public override int GetHashCode()
+        {
+            return Title.GetHashCode();
         }
     }
 }

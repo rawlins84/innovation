@@ -59,6 +59,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="CardImporterTests.cs" />
+    <Compile Include="Common.cs" />
     <Compile Include="DemandTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,6 +71,10 @@
     <ProjectReference Include="..\InnovationSolution\Demands\Actions.csproj">
       <Project>{8def3531-e0ff-4261-b137-825f39880ce0}</Project>
       <Name>Actions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InnovationSolution\Game\Game.csproj">
+      <Project>{2eba6dc4-b883-4d91-945c-11617f660e77}</Project>
+      <Name>Game</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
